@@ -1,5 +1,9 @@
 # print("test")
 # print("This is another test")
 
-sampleString = "This is a sample string and i will reverse it"
-print(sampleString.reversed()) 
+name = input("Enter name: ")
+
+if(name=="Vince"):
+    print('Hello there, ' + name)
+else:
+    print("THOU SHALL NOT PASS!!!")

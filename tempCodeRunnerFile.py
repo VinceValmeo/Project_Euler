@@ -5,20 +5,3 @@
 
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, 
 # find the sum of the even-valued terms.
-
-from tkinter import Y
-
-
-counter = 0
-x = 0
-y = 1
-temp = 0
-sum =0
-while (counter < 10):
-    temp = x + y
-    x = y
-    y = temp
-    print(temp)
-    counter = counter + 1
-    
-

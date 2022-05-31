@@ -14,11 +14,16 @@ x = 0
 y = 1
 temp = 0
 sum =0
-while (counter < 10):
+while (temp < 4000000):
     temp = x + y
     x = y
     y = temp
-    print(temp)
+    if(temp % 2 == 0):
+        # print(temp)
+        sum = sum + temp
+        
     counter = counter + 1
+  
     
 
+print(sum)

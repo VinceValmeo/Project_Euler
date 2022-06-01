@@ -5,7 +5,7 @@ sumSquared = 0
 squaredSum = 0
 squaredSumAnswer = 0
 difference = 0
-while counter < 11:
+while counter < 101:
     sumSquared = sumSquared + math.pow(counter,2)
     
     squaredSum = squaredSum + counter

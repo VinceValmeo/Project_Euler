@@ -5,11 +5,13 @@ import math
 
 counter = 0
 sum = 0
-answer = math.pow(2,15)
+base = 2
+power = 1000
+answer = math.pow(base,power)
 intAnswer = str(int(answer))
 
 while counter < len(intAnswer):
-    print(intAnswer[counter])
+    # print(intAnswer[counter])
     sum = sum + int(intAnswer[counter])
     counter = counter + 1
 

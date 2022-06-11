@@ -1,27 +1,27 @@
-counter = 1
-sum = 0
-myList =[]
-while counter <= 7:
-    print(counter)
-    sum = counter + sum
-    # print("This is SUM: " + str(sum))
-    myList.append(sum)
-    counter = counter + 1
+# counter = 1
+# sum = 0
+# myList =[]
+# while counter <= 7:
+#     print(counter)
+#     sum = counter + sum
+#     # print("This is SUM: " + str(sum))
+#     myList.append(sum)
+#     counter = counter + 1
  
-print("="*20)
-print("Total")
-print(sum)
+# print("="*20)
+# print("Total")
+# print(sum)
 
 
-print("="*20)
-print("List of Sum")
-print(myList)
+# print("="*20)
+# print("List of Sum")
+# print(myList)
 
-divCounter = 1
-for i in range(len(myList)):
-    if myList[i] / divCounter % 2 == 0:
-        print(divCounter)
-        divCounter = divCounter + 1
+# divCounter = 1
+# for i in range(len(myList)):
+#     if myList[i] / divCounter % 2 == 0:
+#         print(divCounter)
+#         divCounter = divCounter + 1
 
         
     # print(myList[i])
@@ -40,3 +40,17 @@ for i in range(len(myList)):
 
 # number = 10
 # getDivisible(number)
+
+number = 10
+counter = 1
+myList = []
+while counter < number:
+    quotient = number / counter 
+    if (quotient % 2 == 0):
+        myList.append(counter)
+        counter = counter + 1
+        print(counter)
+    else:
+        counter = counter + 1
+
+print(myList)

@@ -7,18 +7,23 @@
 
 from math import factorial
 
-number = 100
+# number = 100
+# sum = 0
+# factorialed = str(factorial(number))
+# counter = 0
+# arr = []
+
+# print(factorialed)
+
+
+
+number = factorial(100)
+char = 0
 sum = 0
-factorialed = str(factorial(number))
-counter = 0
-arr = []
-# print("Total characters of the factorialed: "  + str(len(factorialed)))
-# while counter <= len(factorialed):
-#     sum = sum + int(factorialed[counter])
-#     counter = counter + 1
 
-for counter in str(len(factorialed)):
-    arr.append(factorialed)
+while char < len(str(number)):
+    # print(str(number)[char])
+    sum = sum + int(str(number)[char])
+    char = char + 1
 
-
-print(arr)
+print(sum)

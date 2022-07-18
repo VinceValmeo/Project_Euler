@@ -7,15 +7,6 @@
 
 from math import factorial
 
-# number = 100
-# sum = 0
-# factorialed = str(factorial(number))
-# counter = 0
-# arr = []
-
-# print(factorialed)
-
-
 
 number = factorial(100)
 char = 0
@@ -27,3 +18,6 @@ while char < len(str(number)):
     char = char + 1
 
 print(sum)
+
+
+# Problem 34

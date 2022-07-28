@@ -4,11 +4,11 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
 
-first_num = 1
+first_num = 10
 
-while first_num < 10:
+while first_num > 0:
     print("*" * first_num)
-    first_num = first_num + 1
+    first_num = first_num - 1
 # test_number = 9009
 # arr_reverse = []
 # arr = []

@@ -4,11 +4,11 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
 
-first_num = 10
+# first_num = 10
 
-while first_num > 0:
-    print("*" * first_num)
-    first_num = first_num - 1
+# while first_num > 0:
+#     print("*" * first_num)
+#     first_num = first_num - 1
 # test_number = 9009
 # arr_reverse = []
 # arr = []
@@ -28,3 +28,16 @@ while first_num > 0:
 #     print("Palindrome")
 # else:
 #     print("NOT Palindrome")
+
+myString = "Hello"
+
+def reverser(toReverse):
+    reversedString = ""
+    for counter in toReverse:
+        reversedString = counter + reversedString
+    
+    return reversedString
+
+print("Original String: " + myString)
+
+print("Reversed String: " + reverser(myString))

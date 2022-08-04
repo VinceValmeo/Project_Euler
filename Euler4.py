@@ -3,20 +3,31 @@
 
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
-def reverser(toReverse):
-    reversedString = ""
-    for counter in toReverse:
-        reversedString = counter + reversedString
-    return reversedString
+# def reverser(toReverse):
+#     reversedString = ""
+#     for counter in toReverse:
+#         reversedString = counter + reversedString
+#     return reversedString
 
-testString = "9009"
+# testString = "9009"
 
-print("Original String: " + testString)
-print("Reversed String: " + reverser(testString))
+# print("Original String: " + testString)
+# print("Reversed String: " + reverser(testString))
 
 
-if testString == reverser(testString):
-    print("Is palindrome")
-else:
-    print("NOT a Palindrome")
+# if testString == reverser(testString):
+#     print("Is palindrome")
+# else:
+#     print("NOT a Palindrome")
     
+
+
+
+intitial_num = 100
+final_num = 1000
+
+while intitial_num < final_num:
+    print(intitial_num)
+    intitial_num += 1
+
+print("Loop has ended at: " + str(intitial_num))

@@ -23,11 +23,21 @@
 
 
 
-intitial_num = 100
-final_num = 1000
+# intitial_num = 100
+# final_num = 1000
 
-while intitial_num < final_num:
-    print(intitial_num)
-    intitial_num += 1
+# while intitial_num < final_num:
+#     print(intitial_num)
+#     intitial_num += 1
 
-print("Loop has ended at: " + str(intitial_num))
+# print("Loop has ended at: " + str(intitial_num))
+
+print("Hello this is the Multiplication Table Program")
+
+
+initial = 1
+final = 100
+while (initial < final):
+    final -= 1
+    print(final)
+print("Program Ended")

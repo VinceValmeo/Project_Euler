@@ -16,21 +16,13 @@ def isPalindrome(testString):
         # print(" Is palindrome")
         maxArr.append(testString)
     # else:
-    #     print(" NOT a Palindrome")
-
-# def largest(int_value):
-#     max = 0
-#     if int_value > max:
-#         max = int_value
-#     return max
+        # print(" NOT a Palindrome")
 
 first_counter = 100
 while (first_counter < 1000):
     second_counter = 100
     while (second_counter < 1000):
-
         prod = 0
-
         # print(str(first_counter) + " X ", end="")
         # print(str(second_counter) + ": ", end="")
         prod = first_counter * second_counter
@@ -41,10 +33,12 @@ while (first_counter < 1000):
     # print() 
     first_counter += 1
 
-# print(maxArr[-1])
-# print(maxArr)
-print(max(maxArr))
+# Prints the last item on the array, it does not mean that it is the largest
+# print(maxArr[-1])             
 
+#Prints the largest string value, outputs 99999
+# print(max(maxArr))
 
-# Partial Solution 
-# TODO see what is the largest number in the array by value and not by string
+# Converts the string items to integers and prints the largest value on the array.
+result = [int(item) for item in maxArr]
+print(max(result))

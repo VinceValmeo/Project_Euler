@@ -10,10 +10,13 @@
 
 # Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
 
+import math 
 number = "1634"
 
 for counter in number:
-    print(counter)
+    print(math.pow(int(counter), 4))
+    
+
 
 print("Program Ended")
 

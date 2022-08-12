@@ -12,7 +12,7 @@
 
 import math 
 
-print("Testerer: Welcome")
+print("Test: Welcome")
 number = "1634"
 
 for counter in number:

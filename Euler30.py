@@ -14,10 +14,12 @@ import math
 
 print("Tester: Welcome")
 number = "1634"
+answer = 0
 
 for counter in number:
-    print(math.pow(int(counter), 4))
-    
+    answer = answer + (math.pow(int(counter), 4))
+
+print(answer)
 
 
 print("Program Ended")

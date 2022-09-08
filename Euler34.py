@@ -5,6 +5,6 @@
 # Note: As 1! = 1 and 2! = 2 are not sums they are not included.
 
 number ="145"
-
+print(number)
 for counter in number:
     print(counter)
